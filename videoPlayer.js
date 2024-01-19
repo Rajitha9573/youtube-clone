@@ -14,6 +14,7 @@ fetchData('entertainment in telugu', 20);
 
 const MainContainerElement = document.getElementById("maincontainer");
 
+
 function displayData(value){
   
   value.items.forEach(element => {
